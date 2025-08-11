@@ -51,6 +51,10 @@ h1 {
   border-radius: 10px;
 }
 
+.list li:hover {
+  
+}
+
 .list div strong {
   
 

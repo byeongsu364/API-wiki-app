@@ -1,7 +1,7 @@
 import axios from "axios"
 
-const searchWikiTitles = async(q)=> {
-    const res = await axios.get("https://en.wikipedia.org/w/rest.php/v1/search/title", {
+export const searchWikiTitles = async(q)=> {
+    const res = await axios.get("https://ko.wikipedia.org/w/rest.php/v1/search/title", {
         params:{q, limit : 10}
     })
     return res.data.pages;
